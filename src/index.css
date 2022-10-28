@@ -11,3 +11,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item-list {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
+}
+
+.item {
+  background-color: #67d7cc;
+  color: black;
+  border-radius: 10px;
+  padding: 1rem;
+  min-height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.item-footer {
+  display: flex;
+  align-items: center;
+}
+
+.delete-icon {
+  cursor: hover;
+}
+
+.display-weather {
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+}
